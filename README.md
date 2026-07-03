@@ -6,8 +6,6 @@
 
 基於自建 LLM API 的智能聊天機器人，提供類似 ChatGPT 的對話體驗。支援即時通訊、對話管理、主題切換等功能。
 
-![Demo Screenshot](static/images/demo-screenshot.png)
-
 ## ✨ 功能特色
 
 - 🎯 **即時對話**: 基於 WebSocket 的即時聊天體驗
@@ -39,8 +37,8 @@
 ### 1. 克隆專案
 
 ```bash
-git clone <repository-url>
-cd chatbot
+git clone https://github.com/livejiaquan/ChatBot.git
+cd ChatBot
 ```
 
 ### 2. 環境設置
@@ -303,47 +301,6 @@ python app.py
 - 資料庫操作
 - WebSocket 連接狀態
 
-## 🤝 貢獻指南
-
-歡迎提交 Issue 和 Pull Request！
-
-### 開發環境設置
-
-1. Fork 此專案
-2. 克隆您的 fork：
-   ```bash
-   git clone https://github.com/your-username/chatbot.git
-   cd chatbot
-   ```
-3. 創建功能分支：
-   ```bash
-   git checkout -b feature/新功能名稱
-   ```
-4. 設置開發環境：
-   ```bash
-   conda create -n chatbot-dev python=3.9 -y
-   conda activate chatbot-dev
-   pip install -r requirements.txt
-   ```
-5. 進行開發並測試
-6. 提交變更：
-   ```bash
-   git add .
-   git commit -m "新增: 功能描述"
-   ```
-7. 推送分支：
-   ```bash
-   git push origin feature/新功能名稱
-   ```
-8. 提交 Pull Request
-
-### 代碼規範
-
-- 使用 Python PEP 8 風格
-- 添加適當的註釋和文檔字符串
-- 確保所有測試通過
-- 更新相關文檔
-
 ## 📄 授權協議
 
 本專案採用 MIT 授權協議 - 詳見 [LICENSE](LICENSE) 文件
@@ -357,11 +314,10 @@ python app.py
 - [Highlight.js](https://highlightjs.org/) - 程式碼高亮
 - [Font Awesome](https://fontawesome.com/) - 圖標庫
 
-## 📞 支援與回饋
+## 📞 聯絡
 
-- 🐛 回報 Bug：[GitHub Issues](https://github.com/your-username/chatbot/issues)
-- 💡 功能建議：[GitHub Discussions](https://github.com/your-username/chatbot/discussions)
-- 📧 聯絡我們：your-email@example.com
+- GitHub: https://github.com/livejiaquan/ChatBot
+- Email: livejiaquan010313@gmail.com
 
 ## 📊 專案狀態
 
@@ -375,7 +331,3 @@ python app.py
 - 🚧 檔案上傳（計劃中）
 
 ---
-
-**享受與您的 AI 助手對話的樂趣！** 🤖✨
-
-如果這個專案對您有幫助，請考慮給它一個 ⭐ Star！
